@@ -1,3 +1,4 @@
+import sqlite3
 def get_leaderboard(top_n=100):
     conn = sqlite3.connect("leaderboard.db")
     cursor = conn.cursor()
